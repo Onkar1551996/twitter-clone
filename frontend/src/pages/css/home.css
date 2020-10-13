@@ -14,7 +14,7 @@
 
 .col1-home {
   width: 23.3%;
-  border-right: thin solid grey;
+  border-right: 1px solid rgb(230, 236, 240);
 }
 
 .col1-home-body {
@@ -24,14 +24,134 @@
 
 .col2-home {
   width: 43.75%;
-  border-right: thin solid grey;
+  border-right: 1px solid rgb(230, 236, 240);
 }
 
 .col2-home-body {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
   height: 100%;
-  background: skyblue;
+}
+
+#homelink {
+  position: static;
+  display: inline-block;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  height: 53px;
+  width: 598px;
+  text-decoration: none;
+}
+
+#lnktxt {
+  margin-left: 15px;
+  margin-top: 16px;
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+}
+
+#wrttwt {
+  position: static;
+  height: 113px;
+  width: 598px;
+  border-bottom: 10px solid rgb(230, 236, 240);
+}
+
+#inside1 {
+  display: flex;
+  width: 568;
+  height: 103px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  background: white;
+}
+
+#piccolumn {
+  width: 49px;
+  height: 143px;
+  margin-right: 10px;
+}
+
+.imgprop {
+  margin-top: 5px;
+  height: 49px;
+  width: 49px;
+  border-radius: 9999px;
+}
+
+.inputandattach {
+  height: 143px;
+  width: 509px;
+}
+
+#inputcolumn {
+  margin-top: 5px;
+  height: 49px;
+  width: 509px;
+}
+
+.twttext {
+  margin-top: 12px;
+  width: 100%;
+  font-family: system-ui;
+  font-size: 19px;
+  font-stretch: 100%;
+  border: none;
+}
+
+#twtprivacy {
+  height: 40px;
+  width: 509px;
+  display: none;
+}
+
+#attachandtwt {
+  position: fixed;
+  height: 49px;
+  width: 509px;
+  margin-bottom: 10px;
+}
+
+#attach {
+  position: absolute;
+  height: 39px;
+  width: 195px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.svgdiv {
+  height: 39px;
+  width: 39px;
+  border-radius: 9999px;
+}
+
+.svgdiv:hover {
+  background: rgb(29, 161, 242, 0.1);
+}
+
+.attachsvg {
+  fill: rgb(29, 161, 242);
+  height: 22.5px;
+  width: 22.5px;
+}
+
+#twt {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  height: 39px;
+  border: none;
+  border-radius: 9999px;
+  background: rgb(29, 161, 242);
+}
+
+#btntxt {
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 0px 10.4px;
 }
 
 .col3-home {
