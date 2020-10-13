@@ -1,0 +1,46 @@
+.main-prfl-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: system-ui;
+}
+
+.cols-prfl {
+  height: 100%;
+}
+
+.col1-prfl {
+  width: 23.3%;
+  border-right: thin solid grey;
+}
+
+.col1-prfl-body {
+  margin-left: 16%;
+  background: white;
+}
+
+.col2-prfl {
+  width: 43.75%;
+  border-right: thin solid grey;
+}
+
+.col2-prfl-body {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 100%;
+  background: skyblue;
+}
+
+.col3-prfl {
+  width: 31%;
+}
+
+.col3-prfl-body {
+  margin-left: 7%;
+  margin-right: 10%;
+  height: 100%;
+  background: skyblue;
+}

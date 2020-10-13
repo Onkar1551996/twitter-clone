@@ -1,0 +1,173 @@
+.signupform {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(155, 155, 155);
+  font-family: system-ui;
+}
+
+.formbox {
+  background: white;
+  position: relative;
+  margin-top: 32px;
+  left: 28%;
+  height: 89.6%;
+  width: 599px;
+  border: 1px solid white;
+  border-radius: 14px;
+}
+
+.boxheader {
+  display: flex;
+  margin-left: 20%;
+  justify-content: space-between;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.logo3 {
+  margin-left: 31%;
+  margin-top: 0.1px;
+  height: 44.5px;
+  width: 44px;
+}
+
+.nxtbtn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 7px;
+  margin-right: 14px;
+  color: white;
+  background: rgb(29, 161, 242);
+  width: 67px;
+  height: 5px;
+  padding-top: 7px;
+  padding-bottom: 18px;
+  border-radius: 25px;
+}
+
+.boxbody {
+  position: relative;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+#crtacct {
+  padding-top: 2px;
+  font-size: 23px;
+}
+
+.nameinput {
+  margin-top: 27px;
+}
+
+.placediv {
+  background: rgb(246, 248, 248);
+  padding-left: 10px;
+  padding-top: 6px;
+  letter-spacing: 0.01px;
+  color: rgb(106, 106, 106);
+  font-size: 15px;
+}
+
+.signupinput {
+  font-family: system-ui;
+  width: 529px;
+  height: 24px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.01px;
+  background: rgb(246, 248, 248);
+  border: none;
+  border-bottom: 2px solid darkslategray;
+  border-radius: 2px;
+  outline: none;
+}
+
+.signupinput:focus {
+  border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+#charcount {
+  text-align: right;
+  margin-right: 10.5px;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  font-size: 15px;
+  font-weight: 440;
+  color: rgb(106, 106, 106);
+}
+
+.phoneemailswitch {
+  margin-bottom: 25px;
+}
+
+#switchelement {
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  font-weight: 440;
+}
+
+#switchelement:hover {
+  text-decoration: underline;
+}
+
+#dobsection {
+  margin-top: 32px;
+}
+
+#dobheading {
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 1px;
+}
+
+#dobinfo {
+  color: rgb(106, 106, 106);
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.dob {
+  margin-top: 15px;
+}
+
+#dob {
+  height: 32px;
+  width: 521px;
+  border: none;
+  border-bottom: 2px solid darkslategray;
+  border-radius: 2px;
+  outline: none;
+  background: rgb(246, 248, 248);
+  padding: 10px;
+}
+
+#dob::-webkit-datetime-edit-month-field {
+  text-transform: uppercase;
+}
+
+#dob::-webkit-datetime-edit-day-field {
+  text-transform: uppercase;
+}
+
+#dob::-webkit-datetime-edit-year-field {
+  text-transform: uppercase;
+}
+
+#dob::-webkit-datetime-edit-text {
+  color: transparent;
+  padding: 0 90px;
+}
+
+#dob:focus {
+  border-bottom: 2px solid rgb(29, 161, 242);
+}

@@ -1,0 +1,46 @@
+.main-page {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+.main-box {
+  width: 400px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  text-align: center;
+  display: table-cell;
+}
+
+#logo1 {
+  height: 100px;
+  width: 100px;
+}
+
+.signup {
+  background: rgb(29, 161, 242, 0);
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(29, 161, 242);
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid rgb(29, 161, 242, 1);
+  border-radius: 30px;
+  width: 100%;
+}
+
+#signup {
+  background: rgb(29, 161, 242, 1);
+  color: white;
+}
+
+.signup:hover {
+  background: rgb(29, 161, 242, 0.2);
+}
+
+#signup:hover {
+  background: rgb(29, 161, 242, 0.8);
+}

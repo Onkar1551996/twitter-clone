@@ -1,0 +1,99 @@
+.login-page {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: system-ui;
+}
+
+.login-box {
+  width: 530px;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.logo2 {
+  height: 70px;
+  width: 70px;
+}
+.input1 div {
+  padding-left: 8px;
+  padding-top: 8px;
+  height: 20px;
+  background: rgb(246, 248, 248);
+  color: rgb(106, 106, 106);
+  text-align: left;
+  font-size: 15px;
+}
+
+.input2 div {
+  padding-left: 8px;
+  padding-top: 8px;
+  height: 20px;
+  background: rgb(246, 248, 248);
+  color: rgb(106, 106, 106);
+  text-align: left;
+  font-size: 15px;
+}
+
+.lgninput {
+  padding-bottom: 5px;
+  padding-left: 8px;
+  font-family: system-ui;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 98.2%;
+  text-align: left;
+  background: rgb(246, 248, 248);
+  border: none;
+  border-bottom: 2px solid darkslategray;
+  outline: none;
+  height: 20px;
+  font-size: large;
+}
+
+.lgninput:focus {
+  border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+.lgnbtn {
+  padding: 0;
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  text-decoration: none;
+  text-align: center;
+  background: rgb(29, 161, 242);
+  color: white;
+  padding: 10px 0px;
+}
+
+.lgnbtn:hover {
+  background: rgb(29, 161, 242, 0.8);
+}
+
+.bottomstyle {
+  margin-top: 20px;
+  display: flex;
+  color: rgb(29, 161, 242);
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomlink {
+  font-size: 14px;
+  margin-top: 0;
+  padding: 0;
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+  font-weight: normal;
+  border: none;
+  background: none;
+  width: 23%;
+}
+
+.bottomlink:hover {
+  text-decoration: underline;
+  background: none;
+}

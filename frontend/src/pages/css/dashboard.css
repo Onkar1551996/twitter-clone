@@ -1,0 +1,92 @@
+.main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: system-ui;
+}
+
+.col {
+  height: 100%;
+  width: 23.3%;
+  border-right: thin solid grey;
+}
+
+.col-body {
+  margin-left: 16%;
+  background: white;
+}
+
+.linklogosvg {
+  height: 30px;
+  width: 30px;
+  fill: rgb(29, 161, 242, 1);
+  padding: 2px 0px;
+}
+
+.col-link {
+  display: inline-flex;
+  border: none;
+  color: black;
+  border-radius: 9999px;
+  text-decoration: none;
+  padding: 10.2px 12px;
+}
+
+.col-link:hover {
+  background: rgb(29, 161, 242, 0.1);
+  color: rgb(29, 161, 242, 1);
+  fill: rgb(29, 161, 242, 1);
+}
+
+.col-link:active {
+  color: rgb(29, 161, 242, 1);
+  fill: rgb(29, 161, 242, 1);
+}
+
+.linktext {
+  font-size: 19px;
+  font-weight: 900;
+  padding: 1.5px 20px;
+}
+
+.linksvg {
+  height: 26px;
+  width: 26px;
+}
+
+.bottom-lnks {
+  margin-left: 16%;
+  margin-top: 25px;
+}
+
+.newtwt {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 2px;
+  background: rgb(29, 161, 242, 1);
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  text-decoration: none;
+  border-radius: 9999px;
+  padding: 16px 93px;
+}
+
+#accpopup {
+  font-family: system-ui;
+  margin-top: 97px;
+  height: 59px;
+  width: 257px;
+  border: none;
+  border-radius: 9999px;
+  background: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#accpopup:hover {
+  background: rgb(29, 161, 242, 0.1);
+}
