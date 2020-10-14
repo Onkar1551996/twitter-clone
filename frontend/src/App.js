@@ -12,6 +12,7 @@ import Messages from "./pages/messages";
 import Bookmarks from "./pages/bookmarks";
 import Lists from "./pages/lists";
 import Profile from "./pages/profile";
+import Experiment from "./pages/experiment";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route exact path="/bookmarks" component={Bookmarks} />
       <Route exact path="/lists" component={Lists} />
       <Route exact path="/profile" component={Profile} />
+      <Route exact path="/experiment" component={Experiment} />
     </Router>
   );
 }

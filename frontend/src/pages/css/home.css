@@ -1,25 +1,12 @@
 .main-home-container {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 23.3%;
   width: 100%;
   height: 100%;
   display: flex;
   font-family: system-ui;
-}
-
-.cols-home {
-  height: 100%;
-}
-
-.col1-home {
-  width: 23.3%;
-  border-right: 1px solid rgb(230, 236, 240);
-}
-
-.col1-home-body {
-  margin-left: 16%;
-  background: white;
+  border-left: 1px solid rgb(230, 236, 240);
 }
 
 .col2-home {
@@ -40,7 +27,7 @@
   text-decoration: none;
 }
 
-#lnktxt {
+#hmlnktxt {
   margin-left: 15px;
   margin-top: 16px;
   font-size: 19px;
@@ -67,8 +54,7 @@
 
 #piccolumn {
   width: 49px;
-  height: 143px;
-  margin-right: 10px;
+  height: 103px;
 }
 
 .imgprop {
@@ -84,6 +70,7 @@
 }
 
 #inputcolumn {
+  margin-left: 10px;
   margin-top: 5px;
   height: 49px;
   width: 509px;
@@ -94,7 +81,7 @@
   width: 100%;
   font-family: system-ui;
   font-size: 19px;
-  font-stretch: 100%;
+  outline: none;
   border: none;
 }
 
@@ -105,9 +92,9 @@
 }
 
 #attachandtwt {
-  position: fixed;
+  position: absolute;
   height: 49px;
-  width: 509px;
+  width: 517px;
   margin-bottom: 10px;
 }
 
@@ -115,7 +102,8 @@
   position: absolute;
   height: 39px;
   width: 195px;
-  margin-top: 18px;
+  margin-top: 5px;
+  margin-left: 2px;
   display: flex;
   justify-content: flex-start;
 }
@@ -123,6 +111,7 @@
 .svgdiv {
   height: 39px;
   width: 39px;
+  margin-top: 5px;
   border-radius: 9999px;
 }
 
@@ -132,13 +121,15 @@
 
 .attachsvg {
   fill: rgb(29, 161, 242);
+  margin-top: 8px;
+  margin-left: 8px;
   height: 22.5px;
   width: 22.5px;
 }
 
 #twt {
   position: absolute;
-  right: 2px;
+  right: 0;
   bottom: 0;
   height: 39px;
   border: none;
@@ -152,15 +143,4 @@
   font-weight: 600;
   color: white;
   padding: 0px 10.4px;
-}
-
-.col3-home {
-  width: 31%;
-}
-
-.col3-home-body {
-  margin-left: 7%;
-  margin-right: 10%;
-  height: 100%;
-  background: skyblue;
 }

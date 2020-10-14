@@ -19,7 +19,7 @@ export default () => {
           <input type="password" name="password" className="lgninput" />
           <br />
         </div>
-        <Link to="/dashboard" className="lgnbtn">
+        <Link to="/home" className="lgnbtn">
           Log in
         </Link>
         <br />
