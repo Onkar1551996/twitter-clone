@@ -6,7 +6,7 @@ export default () => {
     return (
         <div className="hpng-main-container">
 					<div className="card-header">
-						<span className="card-hd">What's happening</span>
+						<span className="card-hd">What&#8217;s happening</span>
 					</div>
 					<div className="card-sections">
 

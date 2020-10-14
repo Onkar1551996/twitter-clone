@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Dashboard from "../pages/dashboard";
+import SearchTwitter from "../components/searchtwitter";
+import Happening from '../components/happening';
 import './css/home.css';
-import Dashboard from './dashboard';
 
 export default () => {
 	return (
+    <>
+    <Dashboard />
 		<div className="main-home-container">
 			<div className="col2-home">
 					<div className="col2-home-body">
@@ -69,5 +73,8 @@ export default () => {
 					</div>
 			</div>
 		</div>
+    <SearchTwitter />
+    <Happening />
+    </>
 	);
 }
