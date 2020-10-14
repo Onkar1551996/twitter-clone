@@ -12,7 +12,7 @@ import Messages from "./pages/messages";
 import Bookmarks from "./pages/bookmarks";
 import Lists from "./pages/lists";
 import Profile from "./pages/profile";
-import Experiment from "./pages/experiment";
+import Experiment from "./experiment";
 
 function App() {
   return (

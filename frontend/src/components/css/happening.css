@@ -1,0 +1,41 @@
+.hpng-main-container {
+  position: fixed;
+  right: 5%;
+  top: 10%;
+  height: 526px;
+  width: 350px;
+  background: rgb(245, 248, 250);
+  border-radius: 15px;
+  font-family: system-ui;
+  overflow: visible;
+}
+
+.card-header {
+  padding: 12px 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 236, 240);
+}
+
+.card-hd {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.card-sections {
+  height: 85px;
+  width: 348px;
+  border-bottom: 1px solid rgb(230, 236, 240);
+}
+
+.card-footer {
+  position: absolute;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.card-ft {
+  height: 19px;
+  width: 318px;
+  font-size: 15px;
+  color: rgba(29, 161, 242);
+}

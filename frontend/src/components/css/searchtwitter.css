@@ -1,0 +1,51 @@
+.main-search-container {
+  position: fixed;
+  right: 5%;
+  display: flex;
+  margin: 7px 0px;
+  height: 37px;
+  width: 348px;
+  border: 1px solid rgb(230, 236, 240);
+  background: rgb(230, 236, 240);
+  border-radius: 9999px;
+}
+
+.main-search-container:hover {
+  border: 1px solid rgb(29, 161, 242);
+  background: white;
+}
+
+.search-svg {
+  height: 37px;
+  width: 40px;
+}
+
+.search-twtr {
+  margin: 9px 5px;
+  height: 19px;
+  width: 40px;
+  fill: rgb(101, 119, 134);
+}
+
+.search-input {
+  height: 37px;
+  width: 287px;
+}
+
+#twtr-search {
+  height: 100%;
+  width: 100%;
+  padding: 0px 10px;
+  background: rgb(230, 236, 240);
+  font-family: system-ui;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(20, 23, 26);
+  outline: none;
+  border: none;
+}
+
+#twtr-search:hover {
+  background: white;
+}
