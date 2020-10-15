@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Dashboard from './dashboard';
+import SearchTwitter from "../components/searchtwitter";
 import './css/profile.css';
 
 export default () => {
     return (
+      <>
+      <Dashboard />
         <div className="main-prfl-container">
             <div className="col2-prfl">
                 <div className="col1-prfl-body">
@@ -82,5 +86,7 @@ export default () => {
                 </div>
             </div>
         </div>
+        <SearchTwitter />
+      </>
     );
 }
