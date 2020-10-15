@@ -1,46 +1,203 @@
 .main-prfl-container {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 23.3%;
   width: 100%;
   height: 100%;
   display: flex;
   font-family: system-ui;
-}
-
-.cols-prfl {
-  height: 100%;
-}
-
-.col1-prfl {
-  width: 23.3%;
-  border-right: thin solid grey;
-}
-
-.col1-prfl-body {
-  margin-left: 16%;
-  background: white;
+  border-left: 1px solid rgb(230, 236, 240);
 }
 
 .col2-prfl {
   width: 43.75%;
-  border-right: thin solid grey;
+  border-right: 1px solid rgb(230, 236, 240);
 }
 
 .col2-prfl-body {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
   height: 100%;
-  background: skyblue;
 }
 
-.col3-prfl {
-  width: 31%;
+#profilelink {
+  position: static;
+  display: flex;
+  border-bottom: 1px solid rgb(230, 236, 240);
+  height: 53px;
+  width: 598px;
+  text-decoration: none;
 }
 
-.col3-prfl-body {
-  margin-left: 7%;
-  margin-right: 10%;
-  height: 100%;
-  background: skyblue;
+#prevtab {
+  height: 53px;
+  width: 62px;
+  margin-left: 12px;
+}
+
+#prevtablnk {
+  position: absolute;
+  height: 37px;
+  width: 37px;
+  margin-top: 8px;
+  border-radius: 9999px;
+}
+
+#prevtablnk:hover {
+  background: rgb(29, 161, 242, 0.1);
+}
+
+#prevsvg {
+  margin: 7px;
+  height: 22.5px;
+  width: 22.5px;
+  fill: rgb(29, 161, 242);
+}
+
+#pflinkheader {
+  margin: 6px 0px;
+  height: 53px;
+  width: 509px;
+}
+
+#pflnktxt {
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+}
+
+#twtcount {
+  margin-top: 2px;
+  font-size: 13px;
+  color: rgb(101, 119, 134);
+}
+
+#bg-photo {
+  position: relative;
+  height: 199px;
+  width: 598px;
+  background: red;
+}
+
+#pf-photo {
+  position: absolute;
+  margin: 120px 11px;
+  height: 134px;
+  width: 134px;
+  z-index: 1;
+  border: 4px solid white;
+  border-radius: 9999px;
+  background: green;
+}
+
+#usersection {
+  position: relative;
+  height: 181px;
+  width: 598px;
+}
+
+#userinfo {
+  position: absolute;
+  height: 155px;
+  width: 568px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#editbtn {
+  display: flex;
+  justify-content: flex-end;
+  height: 49px;
+  width: 568px;
+}
+
+#editpf {
+  height: 27px;
+  width: 96px;
+  border: 1px solid rgb(29, 161, 242);
+  border-radius: 9999px;
+  position: fixed;
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: system-ui;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#editpf:hover {
+  background: rgb(29, 161, 242, 0.1);
+}
+
+#namediv {
+  margin-top: 5px;
+  height: 24px;
+  width: 568px;
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 800;
+}
+
+#userdiv {
+  margin-top: 1px;
+  height: 19px;
+  width: 568px;
+  color: rgb(101, 119, 134);
+  font-size: 15px;
+}
+
+#infodiv {
+  margin-top: 9px;
+  height: 19px;
+  width: 568px;
+}
+
+#svgicons {
+  display: flex;
+  justify-content: space-between;
+  height: 17px;
+  width: 404px;
+}
+
+.infosvg {
+  display: flex;
+  font-size: 15px;
+  color: rgb(101, 119, 134);
+}
+
+.infosvg > div {
+  margin: 2px 5px;
+}
+
+.userinfosvg {
+  height: 18.75px;
+  width: 18.75px;
+  fill: rgb(101, 119, 134);
+}
+
+#followdiv {
+  display: flex;
+  margin-top: 12px;
+  height: 19px;
+  width: 568px;
+}
+
+#ingcnt {
+  display: flex;
+}
+
+.cnt {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#erscnt {
+  margin-left: 20px;
+  display: flex;
+}
+
+.cnttext {
+  margin-left: 3.5px;
+  font-size: 15px;
+  color: rgb(101, 119, 134);
 }

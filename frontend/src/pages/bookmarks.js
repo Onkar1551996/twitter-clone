@@ -8,7 +8,7 @@ import './css/bookmarks.css';
 export default () => {
     return (
       <>
-      <Dashboard />
+        <Dashboard />
         <div className="main-bkmk-container">
             <div className="col2-bkmk">
                 <div className="col2-bkmk-body">
