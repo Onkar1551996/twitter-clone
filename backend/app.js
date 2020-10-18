@@ -2,10 +2,16 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const profileRoutes = require('./api/routes/profile');
 const loginRoutes = require('./api/routes/login');
 const signupRoutes = require('./api/routes/signup');
+
+mongoose.connect('mongodb+srv://Hackom:' + process.env.MONGO_ATLAS_PW + '@twitter-clone.d5ha8.mongodb.net/twitter-clone?retryWrites=true&w=majority', { 
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
