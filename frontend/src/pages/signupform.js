@@ -5,6 +5,20 @@ import "./css/signupform.css";
 export default () => {
   const [count, setCount] = useState(0);
   const [showPhone, setShowPhone] = useState(true);
+  const [details, setDetails] = useState({
+    "name": "",
+    "email": "",
+    "dateofbirth": ""
+  });
+  const [nextPage, setNextPage] = useState("/signup");
+
+  const updateField = (e) => {
+    setDetails({
+      ...details,
+      [e.target.name]: e.target.value,
+    });
+    setNextPage(details.name && details.email && details.dateofbirth ? "/login" : "/signup");
+  };
 
   function switchElement() {
     setShowPhone(!showPhone);
@@ -15,7 +29,7 @@ export default () => {
       <div className="formbox">
         <span className="boxheader">
           <img src="images/twitterlogo.png" alt="logo" className="logo3" />
-          <Link to="/" className="nxtbtn">
+          <Link to={nextPage} className="nxtbtn">
             Next
           </Link>
         </span>
@@ -28,7 +42,7 @@ export default () => {
                 type="text"
                 name="name"
                 maxLength="50"
-                onChange={(e) => setCount(e.target.value.length)}
+                onChange={(e) => {setCount(e.target.value.length); updateField(e)}}
                 className="signupinput"
               />
               <br />
@@ -45,7 +59,7 @@ export default () => {
               ) : (
                 <div className="emailinput">
                   <div className="placediv">Email</div>
-                  <input type="text" name="email" className="signupinput" />
+                  <input type="text" name="email" onChange={updateField} className="signupinput" />
                   <br />
                 </div>
               )}
@@ -62,9 +76,11 @@ export default () => {
               <div className="dob">
                 <input
                   type="date"
+                  name="dateofbirth"
                   max="2020-10-09"
                   min="1900-10-09"
                   step="1"
+                  onChange={updateField}
                   id="dob"
                 />
               </div>
